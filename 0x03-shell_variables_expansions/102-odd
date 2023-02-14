@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -a | grep [13579][[:space:]] | tr -s ' ' | cut -f2
+paste -d, - - | -d, -f1
